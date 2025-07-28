@@ -1,0 +1,18 @@
+.halfdiv {
+    width: 50%;
+
+}
+.prodictimagediv {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.productinfodiv {
+    height: 80vh;
+    width: 100%;
+    
+}

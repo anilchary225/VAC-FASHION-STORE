@@ -1,0 +1,43 @@
+.cart-container {
+    background-color: rgb(241, 239, 239);
+    
+}
+.carts {
+    
+    width: 80%;
+    margin: auto;
+    
+    background-color: white;
+    border-radius: 20px;
+}
+.cart {
+    border-radius: 20px;
+    /* background-color: aqua; */
+    border-bottom: 1px solid gray;
+    
+
+}
+.cart-img {
+    width: 20%;
+    
+}
+.cart-right {
+    
+    height: 20%;
+
+}
+.cart-right-details {
+    width: 90%;
+    padding: 10px;
+    height: 100%;
+    row-gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+.btn {
+    width: 35%;
+    height: 50px;
+}
+.price-header {
+    font-size: 20px;
+}
