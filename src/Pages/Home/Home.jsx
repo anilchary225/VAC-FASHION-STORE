@@ -20,7 +20,7 @@ function Home() {
     // Fetch categories from the API
     useEffect(()=>{
         async function getProducts(){
-          let k=await axios.get('https://dummyjson.com/products?limit=100')
+          let k=await axios.get('https://dummyjson.com/products?limit=10000')
             //let k=await axios.get('https://dummyjson.com/products') 
             // console.log(k.data.products)
             setStoreProducts(k.data.products)
